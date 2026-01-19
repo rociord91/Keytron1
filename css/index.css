@@ -4,7 +4,6 @@ body {
     background-color: #f4f7fb;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    padding-top: 100px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -398,5 +397,6 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
