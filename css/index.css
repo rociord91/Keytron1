@@ -265,6 +265,13 @@ main {
         max-width: 80%;
     }
 }
+@media (max-width: 768px) {
+    .botoncontacto {
+        margin-left: 0;
+        margin-right: 0;
+        display: inline-block;
+    }
+}
 
 /*Inicio estilos segundo bloque */
 .textosec {
@@ -397,6 +404,7 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
 
