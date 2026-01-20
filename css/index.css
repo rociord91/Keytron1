@@ -208,13 +208,13 @@ main {
 
 /* Imagen izquierda */
 .footer-img-left {
-    width: 80px;  
+    width: 100px;  
     height: auto;
 }
 
 /*Imagen derecha*/
 .footer-img-right {
-    width: 80px;    
+    width: 100px;    
     height: auto;
 }
 
@@ -222,7 +222,7 @@ main {
 @media (max-width: 600px) {
     .footer-links-wrapper {
         flex-direction: column;
-        gap: 8px;
+        gap: 30px;
     }
 }
 
@@ -442,6 +442,7 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
 
