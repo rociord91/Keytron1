@@ -197,11 +197,14 @@ main {
 /* Contenedor para alinear imágenes + enlaces */
 .footer-links-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; 
     align-items: center;
-    gap: 15px; /* separación entre elementos */
-    margin-bottom: 10px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 15px auto; 
+    padding: 0 20px; 
 }
+
 
 /* Imagen izquierda */
 .footer-img-left {
@@ -438,6 +441,7 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
 
