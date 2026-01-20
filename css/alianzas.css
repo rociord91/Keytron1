@@ -124,74 +124,106 @@ body {
 
 /* FOOTER */
 .sticky-footer {
-    background-color: #95908e;
-    color: white;
-    width: 100%;
+  background-color: #95908e;
+  color: white;
+  width: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
-    flex: 1;
+  flex: 1;
 }
 
 .footer-container {
-    text-align: center;
-    padding: 30px 20px;
+  text-align: center;
+  padding: 30px 20px;
+  position: relative;
 }
 
+/* LOGO */
 .footer-logo .logo-peque {
-    width: 80px;
-    height: auto;
-    margin-bottom: 15px;
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* BLOQUE DE ENLACES LEGALES */
+.footer-links-wrapper {
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .footer-links {
-    margin-bottom: 10px;
-    font-size: 14px;
+  font-size: 14px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .footer-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 5px;
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
 }
 
+/* IMAGEN ENS POSICIONADA A LA DERECHA */
+.footer-img-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80px;
+  height: auto;
+}
+
+/* COPYRIGHT */
 .footer-copy {
-    font-size: 12px;
-    margin-bottom: 15px;
+  font-size: 12px;
+  margin-bottom: 15px;
 }
 
+/* CONTACTO FINAL */
 #navtop {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    font-size: 14px;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  align-items: center;
 }
 
 #navtop img#linkedin {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
+/* RESPONSIVE */
 @media (max-width: 600px) {
-    #navtop {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .footer-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
+  .footer-img-right {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
 }
+
+
 /*FIN FOOTER*/
 
 @media (max-width: 768px) {
@@ -394,6 +426,7 @@ main {
         max-width: 60%; /* un poco más grande en pantallas muy pequeñas */
     }
 }
+
 
 
 
