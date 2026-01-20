@@ -194,31 +194,21 @@ main {
 }
 
 /*IMÁGENES FIN FOOTER*/
-/* Contenedor para alinear imágenes + enlaces */
 .footer-links-wrapper {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 700px;
-    margin: 0 auto 15px auto; 
-    padding: 0 20px; 
+    margin: 0 auto 15px auto;
+    padding: 0 20px;
 }
 
-
-/* Imagen izquierda */
-.footer-img-left {
-    width: 100px;  
-    height: auto;
-}
-
-/*Imagen derecha*/
 .footer-img-right {
-    width: 100px;    
+    width: 100px;
     height: auto;
 }
 
-/* En móviles, que todo quede en columna */
 @media (max-width: 600px) {
     .footer-links-wrapper {
         flex-direction: column;
@@ -442,6 +432,7 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
 
