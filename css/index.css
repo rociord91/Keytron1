@@ -192,6 +192,33 @@ main {
         gap: 5px;
     }
 }
+
+/*IMÁGENES FIN FOOTER*/
+.sticky-footer {
+    position: relative; /* Necesario para posicionar las imágenes dentro del footer */
+}
+
+/* Estilo general de las imágenes */
+.footer-img {
+    width: 40px;      /* Ajusta el tamaño a tu gusto */
+    height: 40px;
+    position: absolute;
+}
+
+/* Imagen inferior izquierda */
+.footer-img-left {
+    bottom: 10px;     /* Margen inferior */
+    left: 10px;       /* Margen izquierdo */
+}
+
+/* Imagen inferior derecha */
+.footer-img-right {
+    bottom: 10px;     /* Margen inferior */
+    right: 10px;      /* Margen derecho */
+}
+/*FIN IMAGENES FINAL FOOTER*/
+
+
 /*FIN FOOTER*/
 
 /*inicio estilos primer bloque */
@@ -404,6 +431,7 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
 
