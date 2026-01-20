@@ -194,28 +194,35 @@ main {
 }
 
 /*IMÁGENES FIN FOOTER*/
-.sticky-footer {
-    position: relative; /* Necesario para posicionar las imágenes dentro del footer */
+/* Contenedor para alinear imágenes + enlaces */
+.footer-links-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* separación entre elementos */
+    margin-bottom: 10px;
 }
 
-/* Estilo general de las imágenes */
-.footer-img {
-    width: 40px;      /* Ajusta el tamaño a tu gusto */
-    height: 40px;
-    position: absolute;
-}
-
-/* Imagen inferior izquierda */
+/* Imagen izquierda */
 .footer-img-left {
-    bottom: 10px;     /* Margen inferior */
-    left: 10px;       /* Margen izquierdo */
+    width: 40px;   /* tamaño normal */
+    height: auto;
 }
 
-/* Imagen inferior derecha */
+/* Imagen derecha (1/5 del tamaño) */
 .footer-img-right {
-    bottom: 10px;     /* Margen inferior */
-    right: 10px;      /* Margen derecho */
+    width: 8px;    /* 40px / 5 = 8px */
+    height: auto;
 }
+
+/* En móviles, que todo quede en columna */
+@media (max-width: 600px) {
+    .footer-links-wrapper {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
 /*FIN IMAGENES FINAL FOOTER*/
 
 
@@ -431,6 +438,7 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
 
