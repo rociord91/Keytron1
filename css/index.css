@@ -208,13 +208,13 @@ main {
 
 /* Imagen izquierda */
 .footer-img-left {
-    width: 40px;   /* tamaño normal */
+    width: 80px;  
     height: auto;
 }
 
-/* Imagen derecha (1/5 del tamaño) */
+/*Imagen derecha*/
 .footer-img-right {
-    width: 8px;    /* 40px / 5 = 8px */
+    width: 80px;    
     height: auto;
 }
 
@@ -442,6 +442,7 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
 
