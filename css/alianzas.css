@@ -200,6 +200,7 @@ main {
     html, body {
         overflow-x: hidden;
         width: 100%;
+        padding-top: 50px;
     }
     .menu {
         padding: 10px 20px;
@@ -393,5 +394,6 @@ main {
         max-width: 60%; /* un poco más grande en pantallas muy pequeñas */
     }
 }
+
 
 
