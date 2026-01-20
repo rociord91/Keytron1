@@ -223,7 +223,6 @@ main {
   }
 }
 
-
 /*FIN FOOTER*/
 
 /*inicio estilos primer bloque */
@@ -355,7 +354,54 @@ main {
 }
 
 
-@media (max-width: 768px) { .titulossobrenosotros { padding: 40px 5%; /* reduce padding lateral */ margin-top: 80px; /* evita salto excesivo bajo el menú */ } .historia { flex-direction: column; /* antes en fila, ahora apilado */ text-align: center; gap: 30px; /* reduce separación */ } .historia-texto { width: 100%; } .historia-texto h1 { font-size: 32px; /* más cómodo en móvil */ } .historia-texto h2 { font-size: 22px; } .historia-texto p { font-size: 15px; } .historia-lista li { padding-left: 22px; /* ajusta icono ✔ */ font-size: 14px; } .historia-imagen { text-align: center; /* centra la imagen */ width: 100%; } .historia-imagen img { max-width: 80%; /* evita que se salga */ margin: 0 auto; } } /* Móviles muy pequeños */ @media (max-width: 480px) { .historia-texto h1 { font-size: 26px; } .historia-texto h2 { font-size: 20px; } .historia-texto p { font-size: 14px; } .historia-imagen img { max-width: 90%; } }
+@media (max-width: 768px) { 
+    .titulossobrenosotros { 
+        padding: 40px 5%;
+        margin-top: 80px;
+        } 
+    .historia { 
+        flex-direction: column;
+        text-align: center; 
+        gap: 30px;
+        } 
+    .historia-texto {
+        width: 100%; 
+    } 
+    .historia-texto h1 { 
+        font-size: 32px;
+        } 
+    .historia-texto h2 { 
+        font-size: 22px; 
+    } 
+    .historia-texto p { 
+        font-size: 15px; 
+    } 
+    .historia-lista li { 
+        padding-left: 22px;
+        font-size: 14px; } 
+    .historia-imagen { 
+        text-align: center;
+        width: 100%; 
+    } 
+    .historia-imagen img { 
+        max-width: 80%;
+        margin: 0 auto; 
+    } 
+} 
+/* Móviles muy pequeños */
+@media (max-width: 480px) { 
+    .historia-texto h1 { 
+        font-size: 26px; 
+    } 
+    .historia-texto h2 { 
+        font-size: 20px; 
+    } .historia-texto p { 
+        font-size: 14px; 
+    } 
+    .historia-imagen img { 
+        max-width: 90%; 
+    } 
+}
 
 /*RESPONSIVE GENERAL*/
 @media (max-width: 768px) {
@@ -374,4 +420,5 @@ main {
     }
 
 }
+
 
