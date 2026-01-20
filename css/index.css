@@ -123,6 +123,7 @@ body {
 }
 
 /* FOOTER GENERAL */
+/* FOOTER GENERAL */
 .sticky-footer {
   background-color: #95908e;
   color: white;
@@ -142,6 +143,7 @@ main {
 .footer-container {
   text-align: center;
   padding: 30px 20px;
+  position: relative;
 }
 
 /* LOGO */
@@ -151,19 +153,16 @@ main {
   margin-bottom: 15px;
 }
 
-/* BLOQUE DE ENLACES + CERTIFICADO */
+/* BLOQUE DE ENLACES LEGALES */
 .footer-links-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 10px;
-  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 20px;
 }
 
-/* ENLACES LEGALES */
 .footer-links {
   font-size: 14px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .footer-links a {
@@ -172,8 +171,12 @@ main {
   margin: 0 5px;
 }
 
-/* IMAGEN CERTIFICADO ENS */
+/* IMAGEN ENS POSICIONADA A LA DERECHA */
 .footer-img-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   width: 80px;
   height: auto;
 }
@@ -202,8 +205,16 @@ main {
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .footer-links-wrapper {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
+  }
+
+  .footer-img-right {
+    position: static;
+    transform: none;
+    margin-top: 10px;
   }
 
   .footer-links {
@@ -426,6 +437,7 @@ main {
         margin-left: 20px; 
     } 
 }
+
 
 
 
