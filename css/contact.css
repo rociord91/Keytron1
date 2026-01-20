@@ -336,3 +336,39 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
+/*ÚLTIMO CAMBIO EN FORMULARIO*/
+/* Agrupa cada campo y lo centra */
+.campoform {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Etiquetas centradas con el mismo ancho que los inputs */
+.campoform label {
+    display: block;
+    width: 80%;
+    margin: 0 auto 8px auto;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Inputs y textarea centrados y uniformes */
+.campoform input,
+.campoform textarea {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Botón centrado */
+.formulario input[type="submit"] {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: auto;
+}
