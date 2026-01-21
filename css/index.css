@@ -97,6 +97,7 @@ main {
 }
 .footer-links a:hover {
     color: #0a2fa3;
+    text-decoration: underline;
 }
 
 .footer-img-right {
@@ -386,6 +387,7 @@ main {
         flex-direction: column;
         gap: 10px;
 }
+
 
 
 
