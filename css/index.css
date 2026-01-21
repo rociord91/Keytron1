@@ -95,6 +95,9 @@ main {
   text-decoration: none;
   margin: 0 5px;
 }
+.footer-links a:hover {
+    color: #0a2fa3;
+}
 
 .footer-img-right {
   position: absolute;
@@ -383,6 +386,7 @@ main {
         flex-direction: column;
         gap: 10px;
 }
+
 
 
 
