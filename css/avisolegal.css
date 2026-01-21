@@ -170,6 +170,7 @@ main {
 }
 .footer-links a:hover {
     color: #0a2fa3;
+    text-decoration: underline;
 }
 
 
@@ -425,6 +426,7 @@ main {
         font-size: 14px;
     }
 }
+
 
 
 
