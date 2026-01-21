@@ -118,6 +118,7 @@ main {
   flex-wrap: wrap;
   font-size: 14px;
   align-items: center;
+  text-aling: center;
 }
 
 #navtop img#linkedin {
@@ -250,6 +251,9 @@ main {
         overflow-x: hidden;
         width: 100%;
     }
+    body {
+        padding-top: 80px;
+    }
 
     /* MENÚ */
     .menu {
@@ -304,6 +308,8 @@ main {
     .botoncontacto {
         margin-left: 0;
         margin-right: 0;
+        font-size: 18px;
+        padding: 12px 30px;
     }
 
     .imgInicio img {
@@ -325,6 +331,8 @@ main {
 
     .aboutboton {
         margin-left: 0;
+        font-size: 18px;
+        padding: 12px 30px;
     }
 
     .imgsec img {
@@ -345,7 +353,7 @@ main {
     }
 
     .listavalores {
-        margin-left: 20px;
+        margin-left: 0;
     }
 }
 
@@ -369,4 +377,8 @@ main {
     flex-direction: column;
     gap: 5px;
   }
+    #navtop {
+        flex-direction: column;
+        gap: 10px;
 }
+
