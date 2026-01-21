@@ -387,15 +387,8 @@ img {
 }
 
 /* Inputs y textarea centrados y uniformes */
+.campoform input,
 .campoform textarea {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-.campoform input {
     display: block;
     width: 80%;
     margin: 0 auto;
@@ -405,12 +398,13 @@ img {
     box-sizing: border-box;
 }
 
-
 /* Botón centrado */
 .formulario input[type="submit"] {
     display: block;
     margin: 20px auto 0 auto;
     width: auto;
+}
+
 
 
 
