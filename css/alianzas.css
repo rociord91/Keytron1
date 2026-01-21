@@ -125,7 +125,6 @@ body {
 /* FOOTER */
 .sticky-footer {
   background-color: #d9d6d5;
-  color: white;
   width: 100%;
   color: #222;
 }
@@ -426,6 +425,7 @@ main {
         max-width: 60%; /* un poco más grande en pantallas muy pequeñas */
     }
 }
+
 
 
 
