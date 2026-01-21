@@ -169,6 +169,10 @@ main {
   margin: 0 5px;
 }
 
+.footer-links a:hover {
+    color: #0a2fa3;
+}
+
 /* IMAGEN ENS POSICIONADA A LA DERECHA */
 .footer-img-right {
   position: absolute;
@@ -425,6 +429,7 @@ main {
         max-width: 60%; /* un poco más grande en pantallas muy pequeñas */
     }
 }
+
 
 
 
