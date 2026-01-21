@@ -330,19 +330,19 @@ main {
 }
 
 .historia-lista li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
     font-size: 15px;
     color: #0a2a8a;
     margin-bottom: 10px;
-    position: relative;
-    padding-left: 28px;
 }
 
 .historia-lista li::before {
     content: "✔";
-    position: absolute;
-    left: 0;
     color: #1e90ff;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 .historia-imagen {
@@ -423,6 +423,7 @@ main {
     }
 
 }
+
 
 
 
