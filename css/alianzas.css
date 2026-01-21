@@ -171,6 +171,7 @@ main {
 
 .footer-links a:hover {
     color: #0a2fa3;
+    text-decoration: underline;
 }
 
 /* IMAGEN ENS POSICIONADA A LA DERECHA */
@@ -429,6 +430,7 @@ main {
         max-width: 60%; /* un poco más grande en pantallas muy pequeñas */
     }
 }
+
 
 
 
