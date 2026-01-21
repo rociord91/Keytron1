@@ -118,7 +118,7 @@ main {
   flex-wrap: wrap;
   font-size: 14px;
   align-items: center;
-  text-aling: center;
+  text-align: center;
 }
 
 #navtop img#linkedin {
@@ -381,4 +381,5 @@ main {
         flex-direction: column;
         gap: 10px;
 }
+
 
