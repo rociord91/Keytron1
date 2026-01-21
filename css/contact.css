@@ -124,9 +124,9 @@ body {
 
 /* FOOTER */
 .sticky-footer {
-  background-color: #95908e;
-  color: white;
+  background-color: #d9d6d5;
   width: 100%;
+  color: #222;
 }
 
 body {
@@ -404,6 +404,7 @@ img {
     margin: 20px auto 0 auto;
     width: auto;
 }
+
 
 
 
