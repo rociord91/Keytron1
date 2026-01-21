@@ -124,9 +124,9 @@ body {
 
 /* FOOTER */
 .sticky-footer {
-  background-color: #95908e;
-  color: white;
+  background-color: #d9d6d5;
   width: 100%;
+  color: #222;
 }
 
 body {
@@ -165,7 +165,6 @@ main {
 }
 
 .footer-links a {
-  color: white;
   text-decoration: none;
   margin: 0 5px;
 }
@@ -420,4 +419,5 @@ main {
     } 
 
 }
+
 
