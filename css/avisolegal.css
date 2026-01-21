@@ -168,6 +168,10 @@ main {
   text-decoration: none;
   margin: 0 5px;
 }
+.footer-links a:hover {
+    color: #0a2fa3;
+}
+
 
 /* IMAGEN ENS POSICIONADA A LA DERECHA */
 .footer-img-right {
@@ -421,6 +425,7 @@ main {
         font-size: 14px;
     }
 }
+
 
 
 
