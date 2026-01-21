@@ -165,7 +165,6 @@ main {
 }
 
 .footer-links a {
-  color: white;
   text-decoration: none;
   margin: 0 5px;
 }
@@ -404,6 +403,7 @@ img {
     margin: 20px auto 0 auto;
     width: auto;
 }
+
 
 
 
