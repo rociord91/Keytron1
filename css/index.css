@@ -355,6 +355,9 @@ main {
     .listavalores {
         margin-left: 0;
     }
+    .listavalores dt{
+        margin-left: 20px;
+    }
 }
 
 /* FOOTER MOBILE */
@@ -381,5 +384,6 @@ main {
         flex-direction: column;
         gap: 10px;
 }
+
 
 
