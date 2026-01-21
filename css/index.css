@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+/* GENERAL */
 body {
     background-color: #f4f7fb;
     margin: 0;
@@ -7,11 +8,15 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 50px;
+    padding-top: 50px; /* Igual que archivo 2 */
 }
 
+main {
+    flex: 1;
+}
 
-/*estilos de la barra superior*/
+/* MENÚ SUPERIOR */
+
 .menu { 
     background-color: #ffffff;
     display: flex;
@@ -45,100 +50,22 @@ body {
     color: #0a2fa3;
     font-size: 25px;
 }
+
 .desplegable {
     display: none;
     font-size: 32px;
     background: none;
+    border: none;
     color: #0a2fa3;
     cursor: pointer;
 }
-/* Responsive menú */
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        padding: 20px;
-    }
 
-    .logo {
-        margin-bottom: 10px;
-    }
+/* FOOTER */
 
-    .logo img {
-        height: 60px;
-        margin-left: 0;
-    }
-
-    .linksmenu {
-        display: none;
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px 0;
-        width: 100%; 
-        text-align: center;
-        background-color: #ffffff;
-    }
-    
-    .linksmenu.active {
-        display: flex;
-    }
-
-    .linksmenu a {
-        font-size: 18px;
-    }
-    .desplegable {
-        display: block;
-        align-self: flex-end;
-        margin-bottom: 10px;
-    }
-}
-
-/*MENÚ DESPLEGABLE*/
-.desplegable { 
-    display: none; 
-    font-size: 32px; 
-    background: none; 
-    border: none; color:
-    #0a2fa3; 
-    cursor: pointer; 
-} 
-/* Versión móvil */ 
-@media (max-width: 768px) { 
-    .desplegable { 
-        display: block; 
-        margin-left: auto;
-    } 
-     .linksmenu { 
-        display: none;  
-        flex-direction: column; 
-        width: 100%; 
-        text-align: center; 
-        gap: 20px; 
-        padding: 20px 0; 
-        background-color: #ffffff;
-    } 
-    .linksmenu.active { 
-        display: flex; 
-    } 
-}
-
-/* FOOTER GENERAL */
-/* FOOTER GENERAL */
 .sticky-footer {
   background-color: #95908e;
   color: white;
   width: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex: 1;
 }
 
 .footer-container {
@@ -147,14 +74,12 @@ main {
   position: relative;
 }
 
-/* LOGO */
 .footer-logo .logo-peque {
   width: 80px;
   height: auto;
   margin-bottom: 15px;
 }
 
-/* BLOQUE DE ENLACES LEGALES */
 .footer-links-wrapper {
   position: relative;
   margin-bottom: 20px;
@@ -172,7 +97,6 @@ main {
   margin: 0 5px;
 }
 
-/* IMAGEN ENS POSICIONADA A LA DERECHA */
 .footer-img-right {
   position: absolute;
   right: 0;
@@ -182,13 +106,11 @@ main {
   height: auto;
 }
 
-/* COPYRIGHT */
 .footer-copy {
   font-size: 12px;
   margin-bottom: 15px;
 }
 
-/* CONTACTO FINAL */
 #navtop {
   display: flex;
   justify-content: center;
@@ -203,32 +125,8 @@ main {
   height: 25px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 600px) {
-  .footer-links-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+/* PRIMER BLOQUE (HERO) */
 
-  .footer-img-right {
-    position: static;
-    transform: none;
-    margin-top: 10px;
-  }
-
-  .footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-}
-
-
-/*FIN FOOTER*/
-
-/*inicio estilos primer bloque */
 .textoprincipal {
     display: flex;
     align-items: center;
@@ -280,34 +178,8 @@ main {
     margin-right: 100px;
 }
 
-/* Responsive primer bloque */
-@media (max-width: 768px) {
-    .textoprincipal {
-        flex-direction: column;
-        text-align: center;
-        margin-top: 150px;
-    }
+/* SEGUNDO BLOQUE */
 
-    .ppaltext {
-        max-width: 90%;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    .imgInicio img {
-        margin: 20px auto;
-        max-width: 80%;
-    }
-}
-@media (max-width: 768px) {
-    .botoncontacto {
-        margin-left: 0;
-        margin-right: 0;
-        display: inline-block;
-    }
-}
-
-/*Inicio estilos segundo bloque */
 .textosec {
     display: flex;
     align-items: center;
@@ -351,8 +223,95 @@ main {
     height: 400px;
 }
 
-/* Responsive segundo bloque */
+/* TERCER BLOQUE */
+
+.tercerbloque {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f7fb;
+    margin-bottom: 50px;
+}
+
+.valores {
+    max-width: 75%;
+    margin-left: 100px;
+    color: #0a2fa3;
+    font-size: 20px;
+}
+
+.listavalores {
+    margin-left: 60px;
+}
+
+
 @media (max-width: 768px) {
+
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* MENÚ */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo img {
+        height: 60px;
+        margin-left: 0;
+    }
+
+    .desplegable {
+        display: block;
+        align-self: flex-end;
+        margin-bottom: 10px;
+    }
+
+    .linksmenu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+        padding: 20px 0;
+        background-color: #ffffff;
+    }
+
+    .linksmenu.active {
+        display: flex;
+    }
+
+    .linksmenu a {
+        font-size: 18px;
+    }
+
+    /* HERO */
+    .textoprincipal {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .ppaltext {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .botoncontacto {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .imgInicio img {
+        margin: 20px auto;
+        max-width: 80%;
+    }
+
+    /* SEGUNDO BLOQUE */
     .textosec {
         flex-direction: column;
         text-align: center;
@@ -373,29 +332,8 @@ main {
         max-width: 80%;
         margin: 20px auto;
     }
-}
 
-/*Inicio estilos tercer bloque */
-.tercerbloque {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f4f7fb;
-    margin-bottom: 50px;
-}
-
-.valores {
-    max-width: 75%;
-    margin-left: 100px;
-    color: #0a2fa3;
-    font-size: 20px;
-}
-
-.listavalores {
-    margin-left: 60px;
-}
-
-/* Responsive tercer bloque */
-@media (max-width: 768px) {
+    /* TERCER BLOQUE */
     .tercerbloque {
         flex-direction: column;
         padding: 20px;
@@ -411,44 +349,24 @@ main {
     }
 }
 
-@media (max-width: 768px) {
-    html, body {
-        overflow-x: hidden;
-        width: 100%;
-    }
-    .menu {
-        padding: 10px 20px;
-    } 
-    .logo img { 
-        margin-left: 0;
-    } 
-    .linksmenu {
-        padding-right: 0;
-    }
-    .ppaltext { 
-        margin-left: 0;
-    }
-    .textosec {
-        padding: 0 20px;
-    } 
-    .valores {
-        margin-left: 0;
-    } 
-    .listavalores { 
-        margin-left: 20px; 
-    } 
+/* FOOTER MOBILE */
+@media (max-width: 600px) {
+  .footer-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-img-right {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
